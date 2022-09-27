@@ -19,6 +19,7 @@ public class AB {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("file:///C:/Users/javabyKiran/Desktop/Selenium%20Softwares/Offline%20Website%20for%20Testing/Offline%20Website%20for%20Testing/index.html");
+		System.out.println("in git");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("aaa");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
