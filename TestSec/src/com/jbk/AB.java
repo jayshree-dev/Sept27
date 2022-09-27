@@ -18,6 +18,7 @@ public class AB {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\test\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        System.out.println("i m in");
         driver.get("file:///C:/Users/javabyKiran/Desktop/Selenium%20Softwares/Offline%20Website%20for%20Testing/Offline%20Website%20for%20Testing/index.html");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("aaa");
