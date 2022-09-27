@@ -16,7 +16,7 @@ public class AB {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\set\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("file:///C:/Users/javabyKiran/Desktop/Selenium%20Softwares/Offline%20Website%20for%20Testing/Offline%20Website%20for%20Testing/index.html");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
