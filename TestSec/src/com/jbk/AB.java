@@ -16,7 +16,7 @@ public class AB {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\test\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\gghg\\chromedriver.exe");
 		
         WebDriver driver = new ChromeDriver();
         System.out.println("i m inn");
