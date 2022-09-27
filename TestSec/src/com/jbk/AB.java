@@ -24,9 +24,9 @@ public class AB {
 		System.out.println("in git");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("aaa");
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+        driver.().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("bbb");
-        WebElement SIgnIn=driver.findElement(By.xpath("//*[@id=\"form\"]/div[3]/div/button"));
+        WebElement SIgnon=driver.findElement(By.xpath("//*[@id=\"form\"]/div[3]/div/button"));
         WebDriverWait wait=new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.elementToBeClickable(SIgnIn));
         
