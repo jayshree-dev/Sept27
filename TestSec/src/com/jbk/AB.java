@@ -16,10 +16,15 @@ public class AB {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\test\\chromedriver.exe");
+=======
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\javabyKiran\\Desktop\\driver\\chromedriver.exe");
+>>>>>>> branch 'master' of https://github.com/jayshree-dev/Sept27.git
         WebDriver driver = new ChromeDriver();
         System.out.println("i m inn");
         driver.get("file:///C:/Users/javabyKiran/Desktop/Selenium%20Softwares/Offline%20Website%20for%20Testing/Offline%20Website%20for%20Testing/index.html");
+		System.out.println("in git");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("aaa");
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
